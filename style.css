@@ -1,16 +1,132 @@
-    .red {color: red;}
-    .green{color: green;}
-    .yellow {color: yellow;}
-    .orange {color: orange;}
-    .title {font-size: 70px;}
-    .zhong {text-align: center;}
-    a {text-decoration: none;}
-    .heng {display: inline-block;
-           background-color: gray;
-           width: 300px;
-           color:black;
-           height: 80px;
-           font-size: 30px;
-           line-height: 80px
-           ;}
-    a:hover{ color: blue;}
+* {padding: 0;
+    margin: 0;}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+ .nav {
+     height: 60px;
+     background-color: #fff;
+ }
+ .nav>span {
+     float: left;
+     width: 300px;
+     height: 60px;
+     background: url(images/xidian.png) no-repeat 20px center;
+ }
+ .nav .in1 {
+     float: left;
+     margin: 15px 150px;
+     margin-right: 0;
+     border: skyblue solid 2px;
+     height: 26px;
+     width: 196px;
+     font-weight: 200;
+     border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+     padding-left: 8px;
+ }
+ .nav>button {
+     float: left;
+     border: 0;
+     height: 30px;
+     width: 60px;
+     margin: 15px 0;
+     background: skyblue;
+     font-weight: 200;
+ }
+ .note {
+     float: right;
+     height:60px;
+     width: 400px;
+     font-size: 20px;
+     font-weight: 700;
+     line-height: 60px;
+     text-shadow: 3px 3px 2px gray;
+
+ }
+ .banner {
+     height: 400px;
+     background:url(images/banner.jpg);
+     margin :20px 0;
+ }
+ .banner ul {
+     margin: 0 300px;
+     width: 180px;
+     height: 400px;
+     background-color: rgba(0, 0, 0, 0.3);
+ }
+ .banner ul li {
+     height: 40px;
+     padding: 0 20px;
+ }
+ .banner ul li a {
+     line-height: 40px;
+     color: #fff;
+ }
+ .banner ul li a:hover {
+     color: skyblue;
+ }
+ .banner ul li a span{
+     float: right;
+ }
+ 
+ .tail {
+     height: 320px;
+     background: url(images/banner.png) no-repeat;
+     line-height: 320px;
+     font-size: 100px;
+     color: red;
+     padding-left: 220px;
+ }
+ .download > div{
+     height: 1000px;
+     width: 900px;
+     background-color: white;
+     margin:  auto auto;
+ }
+ .download ul {
+     margin-top: 30px;
+ }
+.download img {
+    width: 100%;
+}
+.download p {
+    height:50px ;
+    width: 270px;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-left: 65px;
+}
+.download ul li {
+    float: left;
+    width: 270px;
+    height: 400px;
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: skyblue solid 2px;
+    box-shadow: 4px 4px 4px gray;
+}
+.studyjurnal {
+    height: 1200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.studyjurnal>div {
+    height: 1200px;
+    width: 900px;
+    background-color: white;
+    margin: auto auto;
+
+}
+
+.studyjurnal>div>ul {
+    height: 1000px;
+    border: skyblue solid 5px;
+}
