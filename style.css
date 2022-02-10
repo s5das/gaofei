@@ -1,0 +1,16 @@
+    .red {color: red;}
+    .green{color: green;}
+    .yellow {color: yellow;}
+    .orange {color: orange;}
+    .title {font-size: 70px;}
+    .zhong {text-align: center;}
+    a {text-decoration: none;}
+    .heng {display: inline-block;
+           background-color: gray;
+           width: 300px;
+           color:black;
+           height: 80px;
+           font-size: 30px;
+           line-height: 80px
+           ;}
+    a:hover{ color: blue;}
